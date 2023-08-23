@@ -39,5 +39,5 @@ app.put('/posts/:id', postController.updatePost);
 app.delete('/posts/:id', postController.deletePost);  
 
 app.listen(port, () => {
-  console.log(`Sunucu ${port}unda açıldı...`);
+  console.log(`Sunucu ${port} portunda açıldı...`);
 });

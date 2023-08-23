@@ -7,10 +7,10 @@ const postController = require('./controller/postController');
 const pageController = require('./controller/pageController');
 
 const app = express();
-const port = 3000;
+const port = process.env.PORT || 5000;
 
 //connect db
-mongoose.connect('mongodb://127.0.0.1:27017/cleanblog-test-db', {
+mongoose.connect('mongodb+srv://ulutasuomer:LYH0jCustDTMX3fh@cluster0.ytdfudf.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });

@@ -10,7 +10,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 //connect db
-mongoose.connect('mongodb+srv://ulutasuomer:LYH0jCustDTMX3fh@cluster0.ytdfudf.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://ulutasuomer:LYH0jCustDTMX3fh@cluster0.ytdfudf.mongodb.net/clean-blog-db?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
